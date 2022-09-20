@@ -6,7 +6,7 @@ app = Flask(__name__)
 # https://jinja.palletsprojects.com/en/3.1.x/templates/#builtin-filters
 @app.route("/")
 def welcome():
-    return "Hello"
+    return "Hello world"
 
 
 @app.route("/<name>")
